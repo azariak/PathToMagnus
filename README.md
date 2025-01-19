@@ -4,3 +4,9 @@ The Path to Magnus Calculator determines how many games connect you to Magnus Ca
 
 
 Built by Azaria Kelman using Claude 3.5 Sonnet.
+
+TODO:
+- Make it actually work
+- Conisder building graph to not depend on Lichess API calls
+- Add Github link
+- Add modal for description at bottom

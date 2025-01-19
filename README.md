@@ -12,3 +12,4 @@ TODO:
 - Add modal for description at bottom
 - Improve mobile site
 - Fix dropdown visibility in Dark Mode
+- Add no user found error

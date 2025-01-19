@@ -17,6 +17,8 @@ const CHESS_STARS = {
 
 // Configurable maximum search depth
 const MAX_SEARCH_DEPTH = 5;
+const GAMES_PER_USER = 100;
+
 
 const PathToPlayer = () => {
   const [username, setUsername] = useState('');
@@ -46,7 +48,7 @@ const PathToPlayer = () => {
       }
 
       const gamesResponse = await fetch(
-        `https://lichess.org/api/games/user/${username}?max=40&perfType=classical`,
+        `https://lichess.org/api/games/user/${username}?max=${GAMES_PER_USER}$&perfType=classical`,
         { headers: { 'Accept': 'application/x-ndjson' } }
       );
 
@@ -105,8 +107,8 @@ const PathToPlayer = () => {
     button: '#4a4a4a',
     buttonHover: '#5a5a5a',
     input: '#333333',
-    link: '#66b3ff',
-    linkHover: '#99ccff'
+    // link: '#66b3ff',
+    // linkHover: '#99ccff'
   } : {
     background: '#f8f4eb',
     cardBg: '#ffffff',
@@ -116,7 +118,7 @@ const PathToPlayer = () => {
     button: '#826f5d',
     buttonHover: '#6d5c4d',
     input: '#ffffff',
-    link: '#2b6cb0',
+    link: '#6d5c4d',
     linkHover: '#4299e1'
   };
 

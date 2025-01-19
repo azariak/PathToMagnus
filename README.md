@@ -11,3 +11,4 @@ TODO:
 - Add Github link
 - Add modal for description at bottom
 - Improve mobile site
+- Fix dropdown visibility in Dark Mode

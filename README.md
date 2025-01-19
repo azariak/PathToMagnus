@@ -10,3 +10,4 @@ TODO:
 - Conisder building graph to not depend on Lichess API calls
 - Add Github link
 - Add modal for description at bottom
+- Improve mobile site
